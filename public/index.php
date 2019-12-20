@@ -1,3 +1,6 @@
+<?php
+require '../functions.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="navbar-header">
-                                <a href="http://www.escortrankings.uk"><img src="./static/image/escortrankings.uk.png" class="escortrankings.uk"></a>
+                                <a href="http://www.escortrankings.uk<?php echo escortrankingsQueryString(); ?>"><img src="./static/image/escortrankings.uk.png" class="escortrankings.uk"></a>
                             </div>
                         </div>
                     </div>
@@ -50,7 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <source src="./static/image/mv.mp4" type="video/mp4"/>
                   <p>It is not an environment to play movies</p>
                 </video>
-                <a class="video-btn btn btn-home2 btn-lg col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" href="https://www.escortrankings.uk/signup">Join Free!</a>
+                <a class="video-btn btn btn-home2 btn-lg col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" href="https://www.escortrankings.uk/signup<?php echo escortrankingsQueryString(); ?>">Join Free!</a>
             </div>
         </div>
     </div>
