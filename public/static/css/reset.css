@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/***********************************************/
+/* ç›®æ¬¡ */
+/*=============================================*/
+/*   00.setting                                */
+/*   01.common                                 */
+/*   02.layout                               */
+/*   03.content(Page)                               */
+/*=============================================*/
+/***********************************************/
+/*=============================================*/
+/*00.setting*/
+/*=============================================*/
+article,aside,aside,canvas,details,figcaption,figure,footer,header,header,hgroup,menu,nav,section,summary {
+    display: block;
+}
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+li {
+    list-style: none;
+}
+a,
+a:link {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    height: auto;
+}
+button,input,select,textarea {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none;
+}
+input[type="radio"]::-ms-check,
+input[type="checkbox"]::-ms-check {
+    display: none;
+}
+i {
+    font-style: normal;
+}
+
+
+/*=============================================*/
+/*01 common*/
+/*=============================================*/
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: auto;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+a,b,dd,dt,li,p,span,td,th {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #333;
+}
+
+.sp-only {
+    display: none !important;
+}
+@media screen and (max-width:768px) {
+    .sp-only {
+        display: block !important;
+    }
+    .pc-only {
+        display: none !important;
+    }
+}
+.center {
+    margin: auto;
+    text-align: center;
+    line-height: 180%;
+}
+
+
+/*=============================================*/
+/*media query   Tablet*/
+/*=============================================*/
+@media screen and (max-width: 1024px) {
+
+
+}
+
+/*=============================================*/
+/*media query    Smart Phone */
+/*=============================================*/
+@media screen and (max-width: 768px) {
+
+
+}
