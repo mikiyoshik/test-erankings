@@ -53,7 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <source src="./../static/image/mv.mp4" type="video/mp4"/>
                   <p>It is not an environment to play movies</p>
                 </video>
-                <a class="video-btn btn btn-home2 btn-lg col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" href="https://www.escortrankings.uk/<?php echo escortrankingsQueryString(); ?>">Join Free!</a>
+                <a class="video-btn btn btn-home2 btn-lg col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" href="https://www.escortrankings.uk/signup<?php echo escortrankingsQueryString(); ?>">Join Free!</a>
             </div>
         </div>
     </div>
