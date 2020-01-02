@@ -78,3 +78,11 @@ header.header {
     position: absolute;
     top: 45%;
 }
+
+.overlay-item--top-left {
+  position: absolute;
+  top: 20px;
+  right: auto;
+  bottom: auto;
+  left: 20px;
+}
