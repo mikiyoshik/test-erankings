@@ -48,7 +48,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main_video container">
         <div class="row">
             <div class="col-sm-12 no-gutter">
-                <video controlslist="nodownload" autoplay preload="metadata" src="./static/image/mv.mp4" id="video" webkit-playsinline playsinline controls>
+                <video muted controlslist="nodownload" autoplay preload="metadata" src="./static/image/mv.mp4" id="video" webkit-playsinline playsinline controls>
                   <source src="./static/image/mv.webm" type="video/webm"/>
                   <source src="./static/image/mv.mp4" type="video/mp4"/>
                   <p>It is not an environment to play movies</p>
