@@ -54,7 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <p>It is not an environment to play movies</p>
                 </video>
                 <a id="muteButton" class="btn btn-default btn-md overlay-item--top-left"><i class="fa fa-volume-up"></i> TAP TO UNMUTE</a>
-                <a class="video-btn btn btn-home2 btn-lg col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" href="https://www.escortrankings.uk/signup<?php echo escortrankingsQueryString(); ?>">Join Free!</a>
+                <a id="video-btn" class="video-btn btn btn-home2 btn-lg col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0" href="https://www.escortrankings.uk/signup<?php echo escortrankingsQueryString(); ?>">Join Free!</a>
             </div>
         </div>
     </div>
