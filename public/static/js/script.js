@@ -18,3 +18,13 @@ video_btn.addEventListener('click', function () {
     $(".main_video").removeClass("finished");
     btn_status = 1;
 });
+
+
+// Unmute button setting
+muteButton.addEventListener('click', function() {
+  video.muted = !video.muted;
+});
+
+video.addEventListener('volumechange', function() {
+  muteButton.classList.toggle('active', video.muted);
+});
