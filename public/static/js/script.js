@@ -22,7 +22,8 @@ video_btn.addEventListener('click', function () {
 
 // Unmute button setting
 muteButton.addEventListener('click', function() {
-  video.muted = !video.muted;
+  video.muted = false;
+  $("#muteButton").css("display", "none");
 });
 
 video.addEventListener('volumechange', function() {
