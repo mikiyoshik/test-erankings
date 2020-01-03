@@ -86,3 +86,7 @@ header.header {
   bottom: auto;
   left: 20px;
 }
+
+#muteButton .active {
+  display: none;
+}
