@@ -48,9 +48,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="main_video container">
         <div class="row">
             <div class="col-sm-12 no-gutter">
-                <video muted controlslist="nodownload" autoplay preload="metadata" src="./static/image/mv.mp4" id="video" webkit-playsinline playsinline>
-                  <source src="./static/image/mv.webm" type="video/webm"/>
-                  <source src="./static/image/mv.mp4" type="video/mp4"/>
+                <video muted controlslist="nodownload" autoplay preload="metadata" src="./static/image/mv-mobile.mp4" id="video" webkit-playsinline playsinline>
+                  <source src="./static/image/mv-mobile.webm" type="video/webm"/>
+                  <source src="./static/image/mv-mobile.mp4" type="video/mp4"/>
                   <p>It is not an environment to play movies</p>
                 </video>
                 <a id="muteButton" class="btn btn-default btn-md overlay-item--top-left"><i class="fa fa-volume-up"></i> TAP TO UNMUTE</a>
