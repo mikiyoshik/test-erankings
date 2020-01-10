@@ -1,0 +1,28 @@
+html, body, a, img {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+
+body {
+  background-image: url(./../image/bg-pc.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(./../image/bg-mobile.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
